@@ -1,4 +1,5 @@
 {% load static %}
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -9,16 +10,18 @@
     <title>{% block title %}{% endblock %}</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="{% static 'main/css/main.css' %}">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 <body>
     <aside>
-        <img src="{% static 'main/img/vizit.jpeg' %}" alt="Logo">
-        <h4>Navigation</h4>
+        <img src="{% static 'main/img/fish.svg' %}" alt="AQUAMAN">
+        <span class="logo"></span>
+        <h3>Navigation</h3>
         <ul>
-            <a href=""><li><i class="fa-solid fa-house"></i>Home Page</li></a>
-            <a href=""><li><i class="fa-solid fa-dolphin"></i>About Us</li></a>
-            <a href=""><li><i class="fa-solid fa-address-card"></i>Contact</li></a>
+            <a href=""><li><i class="bi bi-house-heart-fill"></i>Home Page</li></a>
+            <a href=""><li><i class="bi bi-file-earmark-person"></i>About Us</li></a>
+            <a href=""><li><i class="bi bi-megaphone-fill"></i>Contact</li></a>
+            <a href=""><li><i class="bi bi-images"></i>Gallery</li></a>
         </ul>
     </aside>
     <main>

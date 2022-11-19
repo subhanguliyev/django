@@ -1,3 +1,29 @@
 body{
     background: cyan;
 }
+
+aside{
+    float: left;
+    background: #0dcaf0;
+    width: 20%;
+    padding: 2,5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid #f8f9fa;
+}
+
+aside img{
+    width: 80px;
+    float: left;
+}
+aside .logo{
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+}
+aside .h3{
+    margin-top: 50px;
+    font-size: 30px;
+}
